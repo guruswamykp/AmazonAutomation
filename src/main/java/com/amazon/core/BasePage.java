@@ -1,0 +1,58 @@
+package com.amazon.core;
+
+import com.amazon.core.utils.TestListener;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import java.time.Duration;
+
+public class BasePage extends TestListener {
+    WebDriver driver;
+
+    public BasePage(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    /**
+     * click on element
+     */
+    public void clickOnElement(By element){
+        driver.findElement(element).click();
+        logger.info("Element "+element+" is clicked succesfuly");
+    }
+
+    /**
+     * check is element is present
+     */
+    public boolean isElementPresent(By element){
+        boolean present;
+        try{
+            driver.findElement(element);
+            present = true;
+            logger.info("Element "+element+" is present");
+        }catch (NoSuchElementException e){
+            logger.info("Element "+element+" is not present");
+            present = false;
+        }
+        return present;
+    }
+
+    /**
+     * enter text in element
+     */
+    public void enterText(By element,String text){
+        WebElement ele = driver.findElement(element);
+        ele.clear();
+        ele.sendKeys(text);
+        logger.info("Text "+text+" entered in "+element+" successfully");
+    }
+
+
+
+
+
+}
