@@ -5,10 +5,10 @@
     <test name="amazonAutomation" verbose="2" preserve-order="true" >
         <classes>
             <class name="com.amazon.tests.ShopFlow">
-                <!--<methods>
-                    <include name="sample"/>
+                <methods>
+                    <include name="selectMobileToBuy"/>
 
-                </methods>-->
+                </methods>
             </class>
         </classes>
     </test>

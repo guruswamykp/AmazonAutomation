@@ -18,7 +18,7 @@ public class DevicePDPPage extends BasePage {
         this.testData = testData;
     }
 
-    public void selectDevice(){
+    public void selectDeviceToBuy(){
         //Device configuration
         clickOnElement(BUY_NOW);
 

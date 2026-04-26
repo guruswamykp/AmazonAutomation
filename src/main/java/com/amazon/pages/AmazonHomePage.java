@@ -37,14 +37,13 @@ public class AmazonHomePage extends BasePage {
     /**
      * select item by search box
      */
-    public void selectItemBySearchIcon() throws InterruptedException {
+    public void selectItemBySearchIcon(String searchItem) throws InterruptedException {
         clickOnElement(SEARCH_TEXTBOX);
-        String searchItem = "Apple iPhone 15";
+        
         enterText(SEARCH_TEXTBOX,searchItem);
 
         driver.findElement(SEARCHICON).click();
-        By item = By.xpath("(//div[@data-component-type='s-search-result']//*[contains(@aria-label,'"+searchItem+"')])[1]");
-        driver.findElement(item).click();
+        
     }
 
 

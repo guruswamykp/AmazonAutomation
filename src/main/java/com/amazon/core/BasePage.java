@@ -51,6 +51,18 @@ public class BasePage extends TestListener {
         logger.info("Text "+text+" entered in "+element+" successfully");
     }
 
+    /**
+     * Navigate to child window
+     */
+    public void navigateToChildWindow(){
+        String parentWindow = driver.getWindowHandle();
+        driver.getWindowHandles().forEach(handle->{
+            if(!handle.equals(parentWindow)){
+                driver.switchTo().window(handle);
+                logger.info("Switched to child window");
+            }
+        });
+    }
 
 
 

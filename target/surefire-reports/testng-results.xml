@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-27T00:57:05 IST" name="AllTestSuite" finished-at="2026-04-27T00:57:52 IST" duration-ms="46595">
+    <groups>
+      <group name="smoke">
+        <method signature="ShopFlow.selectMobileToBuy()[pri:0, instance:com.amazon.tests.ShopFlow@3c01cfa1]" name="selectMobileToBuy" class="com.amazon.tests.ShopFlow"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-04-27T00:57:05 IST" name="amazonAutomation" finished-at="2026-04-27T00:57:52 IST" duration-ms="46595">
+      <class name="com.amazon.tests.ShopFlow">
+        <test-method signature="selectMobileToBuy()[pri:0, instance:com.amazon.tests.ShopFlow@3c01cfa1]" started-at="2026-04-27T00:57:05 IST" name="selectMobileToBuy" description="tc3" finished-at="2026-04-27T00:57:52 IST" duration-ms="46548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMobileToBuy -->
+      </class> <!-- com.amazon.tests.ShopFlow -->
+    </test> <!-- amazonAutomation -->
+  </suite> <!-- AllTestSuite -->
+</testng-results>

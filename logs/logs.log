@@ -1,0 +1,133 @@
+2026-04-27 00:23:46 INFO  - Test Suite Started
+2026-04-27 00:23:46 INFO  - Test Started For:tc1
+2026-04-27 00:23:57 INFO  - Application landed
+2026-04-27 00:23:58 INFO  - Passed!!!sample
+2026-04-27 00:23:58 INFO  - Description!!!tc1
+2026-04-27 00:23:58 INFO  - Test Started For:tc2
+2026-04-27 00:24:04 INFO  - Application landed
+2026-04-27 00:24:04 INFO  - Passed!!!sample2
+2026-04-27 00:24:04 INFO  - Description!!!tc2
+2026-04-27 00:24:04 INFO  - Test Started For:tc3
+2026-04-27 00:24:10 INFO  - Application landed
+2026-04-27 00:24:11 INFO  - Passed!!!sample3
+2026-04-27 00:24:11 INFO  - Description!!!tc3
+2026-04-27 00:24:11 INFO  - Test Suite Finish
+2026-04-27 00:47:23 INFO  - Test Suite Started
+2026-04-27 00:47:23 INFO  - Test Started For:tc2
+2026-04-27 00:47:30 INFO  - Application landed
+2026-04-27 00:47:53 INFO  - Element By.xpath: //a[text()='Mobiles'] is clicked succesfuly
+2026-04-27 00:47:58 INFO  - Element By.xpath: //input[@id='twotabsearchtextbox'] is clicked succesfuly
+2026-04-27 00:47:58 INFO  - Text Apple iPhone 17 Pro entered in By.xpath: //input[@id='twotabsearchtextbox'] successfully
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Max 256 GB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Deep Blue
+2026-04-27 00:48:01 INFO  - iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Space Black
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Silver
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro 1 TB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro 1 TB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Silver
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro 512 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro 512 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Silver
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro 1 TB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro (512GB) - Silver with Protect+ with AppleCare Services
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Max 512 GB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Deep Blue
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Max 256 GB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Deep Blue
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Max 2 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Max 1 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Silver
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Max 2 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Deep Blue
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Max 1 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Deep Blue
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Max 512 GB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Max 1 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Max 2 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Silver
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro TechWoven Case with MagSafe - Green
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Clear Case with MagSafe
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Max Clear Case with MagSafe
+2026-04-27 00:48:01 INFO  - Silicone Case for iPhone 17 Pro, Soft-Touch, Shockproof, DustProof, Antiskid Phone Cover for Apple iPhone 17 Pro - Dark Blue
+2026-04-27 00:48:01 INFO  - iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Space Black
+2026-04-27 00:48:01 INFO  - iPhone 17 Pro Max Magsafe Stand Case | Matte Design & 360° Protection | Military-Grade Apple iPhone 17 Pro Max Cover | Ultra Premium - Blue
+2026-04-27 00:48:01 INFO  - POPIO Military-Grade Gorilla Tempered Glass For iPhone 17 Pro | 9H Hardness, Edge-to-Edge, Bubble-Free
+2026-04-27 00:48:01 INFO  - UGREEN 100W USB C Charger, Nexode 4 Ports GaN Charger Fast Charging Block Compact Power Adapter Wall Charge India Plug for MacBook Pro, Dell XPS, iPad, iPhone 17 Pro Max/16, Galaxy S25 Ultra, Pixel 10
+2026-04-27 00:48:01 INFO  - Belkin 65W (45W+20W) USB -C GaN Charger | Fast Charging PD | Gan Technology for Samsung Galaxy S25, Apple iPhone 17, Air, Pro, Pro Max, iPad, MacBook & More | 2 Years Warranty | White
+2026-04-27 00:48:02 INFO  - UGREEN Cell Phone Stand Adjustable, Aluminum Holder for Desk, Foldable, Compatible with iPhone 17 Pro Max, Galaxy S24 Ultra, and More Devices up to 7.9'', Grey
+2026-04-27 00:48:02 INFO  - 
+2026-04-27 00:48:03 INFO  - Passed!!!getAllSearchResults
+2026-04-27 00:48:03 INFO  - Description!!!tc2
+2026-04-27 00:48:03 INFO  - Test Started For:tc1
+2026-04-27 00:48:08 INFO  - Application landed
+2026-04-27 00:48:08 INFO  - b1
+2026-04-27 00:48:08 INFO  - c1
+2026-04-27 00:48:08 INFO  - tc1
+2026-04-27 00:48:24 INFO  - Element By.xpath: //a[text()='Mobiles'] is clicked succesfuly
+2026-04-27 00:48:29 INFO  - Element By.xpath: //input[@id='twotabsearchtextbox'] is clicked succesfuly
+2026-04-27 00:48:30 INFO  - Text Apple iPhone 17 Pro entered in By.xpath: //input[@id='twotabsearchtextbox'] successfully
+2026-04-27 00:48:34 INFO  - Passed!!!selectDeviceBySearchIcon
+2026-04-27 00:48:34 INFO  - Description!!!tc1
+2026-04-27 00:48:34 INFO  - Test Started For:tc3
+2026-04-27 00:48:34 INFO  - Failed!!!selectDeviceToBuy
+2026-04-27 00:48:34 INFO  - Description!!!tc3
+2026-04-27 00:48:34 INFO  - Test Suite Finish
+2026-04-27 00:51:33 INFO  - Test Suite Started
+2026-04-27 00:51:33 INFO  - Test Started For:tc2
+2026-04-27 00:51:39 INFO  - Application landed
+2026-04-27 00:52:02 INFO  - Element By.xpath: //a[text()='Mobiles'] is clicked succesfuly
+2026-04-27 00:52:07 INFO  - Element By.xpath: //input[@id='twotabsearchtextbox'] is clicked succesfuly
+2026-04-27 00:52:07 INFO  - Text Apple iPhone 17 Pro entered in By.xpath: //input[@id='twotabsearchtextbox'] successfully
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro Max 256 GB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Deep Blue
+2026-04-27 00:52:10 INFO  - iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Space Black
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Silver
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro 1 TB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro 1 TB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Silver
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro (512GB) - Silver with Protect+ with AppleCare Services
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro 512 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro 1 TB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro Max 512 GB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Deep Blue
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro 512 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Silver
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro Max 256 GB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Deep Blue
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro Max 2 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro Max 1 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Silver
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro Max 1 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Deep Blue
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro Max 2 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Deep Blue
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro Max 512 GB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro Max 1 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Cosmic Orange
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro Max 2 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Silver
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro Clear Case with MagSafe
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro TechWoven Case with MagSafe - Green
+2026-04-27 00:52:10 INFO  - iPhone 17 Pro Max Clear Case with MagSafe
+2026-04-27 00:52:10 INFO  - Silicone Case for iPhone 17 Pro, Soft-Touch, Shockproof, DustProof, Antiskid Phone Cover for Apple iPhone 17 Pro - Dark Blue
+2026-04-27 00:52:10 INFO  - iPhone Charger Adapter 20W Type C for iPhone 17/17 Air/17 Pro/17 Pro Max, 16/16 Plus/16 Pro/16 Pro Max, 15/15 Plus/15Pro/15 Pro Max & Other Devices with 1 Meter USB C to Type C Data Cable
+2026-04-27 00:52:10 INFO  - iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Space Black
+2026-04-27 00:52:10 INFO  - POPIO Military-Grade Gorilla Tempered Glass For iPhone 17 Pro | 9H Hardness, Edge-to-Edge, Bubble-Free
+2026-04-27 00:52:10 INFO  - XYZ for iPhone 17 Pro Max Back Cover Case with Stand, Phone Case with Double Ring Kickstand, Women Girls Bling Luxury Glitter Clear Phone Cover Heart for Apple 17 Pro Max, Cosmic Orange
+2026-04-27 00:52:10 INFO  - UGREEN 100W USB C Charger, Nexode 4 Ports GaN Charger Fast Charging Block Compact Power Adapter Wall Charge India Plug for MacBook Pro, Dell XPS, iPad, iPhone 17 Pro Max/16, Galaxy S25 Ultra, Pixel 10
+2026-04-27 00:52:10 INFO  - Belkin 65W (45W+20W) USB -C GaN Charger | Fast Charging PD | Gan Technology for Samsung Galaxy S25, Apple iPhone 17, Air, Pro, Pro Max, iPad, MacBook & More | 2 Years Warranty | White
+2026-04-27 00:52:10 INFO  - 
+2026-04-27 00:52:11 INFO  - Passed!!!getAllSearchResults
+2026-04-27 00:52:11 INFO  - Description!!!tc2
+2026-04-27 00:52:11 INFO  - Test Started For:tc1
+2026-04-27 00:52:17 INFO  - Application landed
+2026-04-27 00:52:17 INFO  - b1
+2026-04-27 00:52:17 INFO  - c1
+2026-04-27 00:52:17 INFO  - tc1
+2026-04-27 00:52:42 INFO  - Element By.xpath: //a[text()='Mobiles'] is clicked succesfuly
+2026-04-27 00:52:47 INFO  - Element By.xpath: //input[@id='twotabsearchtextbox'] is clicked succesfuly
+2026-04-27 00:52:48 INFO  - Text Apple iPhone 17 Pro entered in By.xpath: //input[@id='twotabsearchtextbox'] successfully
+2026-04-27 00:52:50 INFO  - Passed!!!selectDeviceBySearchIcon
+2026-04-27 00:52:50 INFO  - Description!!!tc1
+2026-04-27 00:52:50 INFO  - Test Started For:tc3
+2026-04-27 00:52:50 INFO  - Failed!!!selectDeviceToBuy
+2026-04-27 00:52:50 INFO  - Description!!!tc3
+2026-04-27 00:52:51 INFO  - Test Suite Finish
+2026-04-27 00:57:05 INFO  - Test Suite Started
+2026-04-27 00:57:05 INFO  - Test Started For:tc3
+2026-04-27 00:57:14 INFO  - Application landed
+2026-04-27 00:57:34 INFO  - Element By.xpath: //a[text()='Mobiles'] is clicked succesfuly
+2026-04-27 00:57:39 INFO  - Element By.xpath: //input[@id='twotabsearchtextbox'] is clicked succesfuly
+2026-04-27 00:57:40 INFO  - Text Apple iPhone 17 Pro entered in By.xpath: //input[@id='twotabsearchtextbox'] successfully
+2026-04-27 00:57:43 INFO  - Switched to child window
+2026-04-27 00:57:50 INFO  - Element By.xpath: //input[@id='buy-now-button'] is clicked succesfuly
+2026-04-27 00:57:52 INFO  - Passed!!!selectMobileToBuy
+2026-04-27 00:57:52 INFO  - Description!!!tc3
+2026-04-27 00:57:52 INFO  - Test Suite Finish

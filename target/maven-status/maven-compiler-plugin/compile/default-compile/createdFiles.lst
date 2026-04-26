@@ -1,0 +1,8 @@
+com\amazon\pages\DevicePDPPage.class
+com\amazon\core\utils\TestListener.class
+com\amazon\core\BasePage.class
+com\amazon\pages\AmazonHomePage.class
+com\amazon\core\BaseTest.class
+com\amazon\core\interception\Interception.class
+com\amazon\pages\GridWallPage.class
+com\amazon\tests\ShopFlow.class

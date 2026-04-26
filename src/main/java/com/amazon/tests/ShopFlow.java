@@ -4,6 +4,8 @@ import com.amazon.core.BaseTest;
 import com.amazon.core.utils.TestListener;
 import com.amazon.pages.AmazonHomePage;
 import com.amazon.pages.DevicePDPPage;
+import com.amazon.pages.GridWallPage;
+
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -12,22 +14,24 @@ public class ShopFlow extends BaseTest {
 
     private AmazonHomePage amazonHomePage;
     private DevicePDPPage devicePDPPage;
+    private GridWallPage gridWallPage;
 
-
+    /**
+     * Select a device by search icon
+     */
     @Test(description = "tc1")
-    public void sample() {
+    public void selectDeviceBySearchIcon() {
         try{
             initializeBrowser();
             initializePageObjects();
             getTestDataFromExcel();
             navigateToApplication();
-            System.out.println(testData.get("collection"));
-            System.out.println(testData.get("username"));
-            System.out.println(testData.get("qtestid"));
-           /* amazonHomePage.navigateToMobiles();
-            amazonHomePage.selectItemBySearchIcon();
-            devicePDPPage.selectDevice();*/
-
+            // checkk excel data is fetching or not 
+            logger.info(testData.get("collection"));
+            logger.info(testData.get("username"));
+            logger.info(testData.get("qtestid"));
+            amazonHomePage.navigateToMobiles();
+            amazonHomePage.selectItemBySearchIcon("Apple iPhone 17 Pro");
 
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -36,19 +40,19 @@ public class ShopFlow extends BaseTest {
         }
     }
 
+    /**
+     * Get all search results
+     */
     @Test(description = "tc2",groups = {"smoke"})
-    public void sample2() {
+    public void getAllSearchResults() {
         try{
             initializeBrowser();
             initializePageObjects();
             getTestDataFromExcel();
             navigateToApplication();
-            System.out.println(testData.get("collection"));
-            System.out.println(testData.get("username"));
-            System.out.println(testData.get("qtestid"));
-           /* amazonHomePage.navigateToMobiles();
-            amazonHomePage.selectItemBySearchIcon();
-            devicePDPPage.selectDevice();*/
+            amazonHomePage.navigateToMobiles();
+            amazonHomePage.selectItemBySearchIcon("Apple iPhone 17 Pro");
+            gridWallPage.getAllSearchResults();
             
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -57,19 +61,20 @@ public class ShopFlow extends BaseTest {
         }
     }
 
+    /**
+     * Select a device to buy
+     */
     @Test(description = "tc3",groups = {"smoke"})
-    public void sample3() {
+    public void selectMobileToBuy() {
         try{
             initializeBrowser();
             initializePageObjects();
             getTestDataFromExcel();
             navigateToApplication();
-            /*System.out.println(testData.get("collection"));
-            System.out.println(testData.get("username"));
-            System.out.println(testData.get("qtestid"));*/
-           /* amazonHomePage.navigateToMobiles();
-            amazonHomePage.selectItemBySearchIcon();
-            devicePDPPage.selectDevice();*/
+            amazonHomePage.navigateToMobiles();
+            amazonHomePage.selectItemBySearchIcon("Apple iPhone 17 Pro");
+            gridWallPage.selectDevicefromSearchResults("Apple iPhone 17 Pro");
+            devicePDPPage.selectDeviceToBuy();
 
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -78,8 +83,11 @@ public class ShopFlow extends BaseTest {
         }
     }
 
+
+
     void initializePageObjects(){
         amazonHomePage = new AmazonHomePage(getDriver(),testData);
         devicePDPPage = new DevicePDPPage(getDriver(),testData);
+        gridWallPage = new GridWallPage(getDriver(),testData);
     }
 }
