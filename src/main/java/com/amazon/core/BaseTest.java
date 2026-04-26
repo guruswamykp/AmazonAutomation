@@ -126,6 +126,7 @@ public class BaseTest extends TestListener {
      */
     public void finallyBlock(){
         driver.quit();
+        new BasePage(driver).flushExtentReport();
     }
 
 

@@ -131,3 +131,37 @@
 2026-04-27 00:57:52 INFO  - Passed!!!selectMobileToBuy
 2026-04-27 00:57:52 INFO  - Description!!!tc3
 2026-04-27 00:57:52 INFO  - Test Suite Finish
+2026-04-27 01:52:05 INFO  - Test Suite Started
+2026-04-27 01:52:05 INFO  - Test Started For:tc3
+2026-04-27 01:52:15 INFO  - Application landed
+2026-04-27 01:52:16 ERROR - Failed to capture screenshot for HomePage
+2026-04-27 01:52:16 ERROR - Failed to capture screenshot for extent report for HomePage
+2026-04-27 01:52:18 INFO  - Failed!!!selectMobileToBuy
+2026-04-27 01:52:18 INFO  - Description!!!tc3
+2026-04-27 01:52:18 INFO  - Test Suite Finish
+2026-04-27 01:53:42 INFO  - Test Suite Started
+2026-04-27 01:53:42 INFO  - Test Started For:tc3
+2026-04-27 01:53:50 INFO  - Application landed
+2026-04-27 01:53:51 INFO  - Screenshot captured for HomePage
+2026-04-27 01:54:05 INFO  - Element By.xpath: //a[text()='Mobiles'] is clicked succesfuly
+2026-04-27 01:54:11 INFO  - Element By.xpath: //input[@id='twotabsearchtextbox'] is clicked succesfuly
+2026-04-27 01:54:11 INFO  - Text Apple iPhone 17 Pro entered in By.xpath: //input[@id='twotabsearchtextbox'] successfully
+2026-04-27 01:54:15 INFO  - Switched to child window
+2026-04-27 01:54:20 INFO  - Screenshot captured for HomePage
+2026-04-27 01:54:23 INFO  - Element By.xpath: //input[@id='buy-now-button'] is clicked succesfuly
+2026-04-27 01:54:24 INFO  - Passed!!!selectMobileToBuy
+2026-04-27 01:54:24 INFO  - Description!!!tc3
+2026-04-27 01:54:24 INFO  - Test Suite Finish
+2026-04-27 02:06:08 INFO  - Test Suite Started
+2026-04-27 02:06:08 INFO  - Test Started For:tc3
+2026-04-27 02:06:17 INFO  - Application landed
+2026-04-27 02:06:18 INFO  - Screenshot captured for HomePage
+2026-04-27 02:06:33 INFO  - Element By.xpath: //a[text()='Mobiles'] is clicked succesfuly
+2026-04-27 02:06:38 INFO  - Element By.xpath: //input[@id='twotabsearchtextbox'] is clicked succesfuly
+2026-04-27 02:06:39 INFO  - Text Apple iPhone 17 Pro entered in By.xpath: //input[@id='twotabsearchtextbox'] successfully
+2026-04-27 02:06:42 INFO  - Switched to child window
+2026-04-27 02:06:47 INFO  - Screenshot captured for HomePage
+2026-04-27 02:06:50 INFO  - Element By.xpath: //input[@id='buy-now-button'] is clicked succesfuly
+2026-04-27 02:06:51 INFO  - Passed!!!selectMobileToBuy
+2026-04-27 02:06:51 INFO  - Description!!!tc3
+2026-04-27 02:06:51 INFO  - Test Suite Finish

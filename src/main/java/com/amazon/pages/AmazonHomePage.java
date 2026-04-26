@@ -4,6 +4,7 @@ import com.amazon.core.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.io.IOException;
 import java.util.Map;
 
 
@@ -26,7 +27,8 @@ public class AmazonHomePage extends BasePage {
     /**
      * navigate to mobiles tab
      */
-    public void navigateToMobiles() throws InterruptedException {
+    public void navigateToMobiles() throws InterruptedException, Exception {
+        captureScreenshotForExtentReport("HomePage");
         Thread.sleep(5000);
         clickOnElement(MOBILES);
 
@@ -39,7 +41,7 @@ public class AmazonHomePage extends BasePage {
      */
     public void selectItemBySearchIcon(String searchItem) throws InterruptedException {
         clickOnElement(SEARCH_TEXTBOX);
-        
+
         enterText(SEARCH_TEXTBOX,searchItem);
 
         driver.findElement(SEARCHICON).click();

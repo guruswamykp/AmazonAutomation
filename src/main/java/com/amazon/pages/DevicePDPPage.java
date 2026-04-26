@@ -4,6 +4,7 @@ import com.amazon.core.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.io.IOException;
 import java.util.Map;
 
 public class DevicePDPPage extends BasePage {
@@ -18,13 +19,14 @@ public class DevicePDPPage extends BasePage {
         this.testData = testData;
     }
 
-    public void selectDeviceToBuy(){
+    public void selectDeviceToBuy() throws Exception{
+        captureScreenshotForExtentReport("HomePage");
         //Device configuration
         clickOnElement(BUY_NOW);
 
     }
 
-    public void selectDeviceColor(){
+    public void selectDeviceColor() throws Exception{
 
     }
     public void selectDeviceStorage(){
