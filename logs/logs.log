@@ -165,3 +165,13 @@
 2026-04-27 02:06:51 INFO  - Passed!!!selectMobileToBuy
 2026-04-27 02:06:51 INFO  - Description!!!tc3
 2026-04-27 02:06:51 INFO  - Test Suite Finish
+2026-04-28 00:00:35 INFO  - Test Suite Started
+2026-04-28 00:00:35 INFO  - Test Started For:tc3
+2026-04-28 00:00:44 INFO  - Application landed
+2026-04-28 00:00:44 INFO  - Screenshot captured for HomePage
+2026-04-28 00:00:58 INFO  - Element By.xpath: //a[text()='Mobiles'] is clicked succesfuly
+2026-04-28 00:01:03 INFO  - Element By.xpath: //input[@id='twotabsearchtextbox'] is clicked succesfuly
+2026-04-28 00:01:04 INFO  - Text Apple iPhone 17 Pro entered in By.xpath: //input[@id='twotabsearchtextbox'] successfully
+2026-04-28 00:01:18 INFO  - Failed!!!selectMobileToBuy
+2026-04-28 00:01:18 INFO  - Description!!!tc3
+2026-04-28 00:01:18 INFO  - Test Suite Finish

@@ -20,7 +20,7 @@ public class DevicePDPPage extends BasePage {
     }
 
     public void selectDeviceToBuy() throws Exception{
-        captureScreenshotForExtentReport("HomePage");
+        captureScreenshot("HomePage");
         //Device configuration
         clickOnElement(BUY_NOW);
 

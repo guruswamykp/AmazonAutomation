@@ -1,6 +1,7 @@
 package com.amazon.core;
 
-import com.amazon.core.utils.ExtentReporting;
+
+import com.amazon.core.utils.TestListener;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -20,7 +21,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class BaseTest extends ExtentReporting {
+public class BaseTest extends TestListener {
     public WebDriver driver;
     public Map<String,String> testData;
     public static String qtestid;

@@ -28,7 +28,7 @@ public class AmazonHomePage extends BasePage {
      * navigate to mobiles tab
      */
     public void navigateToMobiles() throws InterruptedException, Exception {
-        captureScreenshotForExtentReport("HomePage");
+        captureScreenshot("HomePage");
         Thread.sleep(5000);
         clickOnElement(MOBILES);
 

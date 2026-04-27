@@ -1,7 +1,6 @@
 C:\Workspace\AmazonAutomation\src\main\java\com\amazon\core\BasePage.java
 C:\Workspace\AmazonAutomation\src\main\java\com\amazon\core\BaseTest.java
 C:\Workspace\AmazonAutomation\src\main\java\com\amazon\core\interception\Interception.java
-C:\Workspace\AmazonAutomation\src\main\java\com\amazon\core\utils\ExtentReporting.java
 C:\Workspace\AmazonAutomation\src\main\java\com\amazon\core\utils\TestListener.java
 C:\Workspace\AmazonAutomation\src\main\java\com\amazon\pages\AmazonHomePage.java
 C:\Workspace\AmazonAutomation\src\main\java\com\amazon\pages\DevicePDPPage.java

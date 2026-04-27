@@ -1,6 +1,6 @@
 package com.amazon.core;
 
-import com.amazon.core.utils.ExtentReporting;
+import com.amazon.core.utils.TestListener;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class BasePage extends ExtentReporting {
+public class BasePage extends TestListener {
     WebDriver driver;
 
     public BasePage(WebDriver driver) {
