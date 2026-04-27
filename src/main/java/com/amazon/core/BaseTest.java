@@ -1,6 +1,6 @@
 package com.amazon.core;
 
-import com.amazon.core.utils.TestListener;
+import com.amazon.core.utils.ExtentReporting;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -11,9 +11,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.*;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -23,7 +20,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class BaseTest extends TestListener {
+public class BaseTest extends ExtentReporting {
     public WebDriver driver;
     public Map<String,String> testData;
     public static String qtestid;
@@ -126,7 +123,6 @@ public class BaseTest extends TestListener {
      */
     public void finallyBlock(){
         driver.quit();
-        new BasePage(driver).flushExtentReport();
     }
 
 
